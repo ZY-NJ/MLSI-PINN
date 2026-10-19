@@ -1,0 +1,32 @@
+{
+  "python": "3.8.10",
+  "torch": "2.0.0+cu118",
+  "numpy": "1.24.2",
+  "scipy": "1.10.1",
+  "astropy": "5.2.2",
+  "training_spectra": 4096,
+  "independent_inference_spectra": 4096,
+  "spectral_samples": 502,
+  "training_epochs": [
+    50,
+    20
+  ],
+  "cpu_gpu_parameter_max_abs_difference": 5.7220458984375e-06,
+  "inference_spectral_mse_samples_112_360": 0.0003517629982822617,
+  "all_output_values_finite": true,
+  "input_and_output_fits_checksums_valid": true,
+  "train_inference_timestamps_distinct": true,
+  "numerical_parity_with_retained_implementation": {
+    "model_outputs_exact": true,
+    "spectra_exact": true,
+    "spectral_gradients_exact": true,
+    "vp_exact": true,
+    "both_stage_objectives_exact": true,
+    "stage2_optimizer_step_exact": true,
+    "reference_max_abs_difference": 0.0
+  },
+  "checkpoint_sha256": "7d64d9fbe50689b155dab5b264e42217baf884e32c17122b877005dc803273cb",
+  "isolated_package_install_and_import": true,
+  "local_download_hashes_verified": true,
+  "retained_source_sha256": "b264dc8a648573f631abcb10ac4d7c8e5a0d95bab2c9addac3f78e694892c236"
+}
