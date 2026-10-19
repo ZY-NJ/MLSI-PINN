@@ -2,6 +2,25 @@
 
 A runnable Ca II 8542 example of multilayer spectral inversion with a physics-informed neural network. The package includes corrected FISS spectra, conventional MLSI reference parameters for training, a separate inference raster, and a trained example checkpoint.
 
+## Citation
+
+If you use MLSI-PINN in your research, please cite our paper:
+
+Zhang, Z., Li, Q., Yurchyshyn, V. B., Yi, K., Wang, H., Cao, W., & Shen, B. (2026). *Physics-Informed Neural Networks for Fast Multilayer Spectral Inversion of Hα 6562.8 A and Ca II 8542.1 A Spectra*. [arXiv:2609.18025](https://arxiv.org/abs/2609.18025).
+
+```bibtex
+@misc{zhang2026mlsipinn,
+  title         = {Physics-Informed Neural Networks for Fast Multilayer Spectral Inversion of {H$\alpha$} 6562.8 A and {Ca II} 8542.1 A Spectra},
+  author        = {Zhang, Ziyang and Li, Qin and Yurchyshyn, Vasyl B. and Yi, Kangwoo and Wang, Haimin and Cao, Wenda and Shen, Bo},
+  year          = {2026},
+  eprint        = {2609.18025},
+  archivePrefix = {arXiv},
+  primaryClass  = {astro-ph.SR},
+  doi           = {10.48550/arXiv.2609.18025},
+  url           = {https://arxiv.org/abs/2609.18025}
+}
+```
+
 ## Quick start
 
 Run these commands from the repository directory. Python 3.8 or later is required. The tested dependency versions are also recorded in `requirements-tested.txt`. A CUDA GPU accelerates training, but the example also runs on CPU.
