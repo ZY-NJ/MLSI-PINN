@@ -1,0 +1,18 @@
+{
+  "seed": 42,
+  "batch_size": 256,
+  "dropout": 0.0,
+  "stage1_epochs": 50,
+  "stage2_epochs": 20,
+  "stage1_lr": 0.0002,
+  "stage2_lr": 0.0006,
+  "stage1_weight_decay": 0.00001,
+  "stage2_weight_decay": 0.0,
+  "stage1_window": [112, 360],
+  "stage2_window": [210, 238],
+  "spectral_weight": 10.0,
+  "parameter_weight": 1.0,
+  "stage2_trainable_rows": [2, 3, 5, 6, 8, 9],
+  "stage2_supervised_rows": [5, 6, 8, 9],
+  "stage2_grad_clip": 1.0
+}
