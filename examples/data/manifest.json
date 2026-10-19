@@ -1,0 +1,62 @@
+{
+  "schema_version": 1,
+  "line": "Ca II 8542",
+  "preprocessing": "Existing corAll-corrected, normalized spectra; no additional normalization or wavelength reversal.",
+  "wavelength_source": "Legacy grid reconstructed in float32 from CRVAL1=8542.09, CRPIX1=225.358535767, CDELT1=0.0256741359106, as in the retained training loader. These cards were absent from the source corrected FITS.",
+  "files": {
+    "train.fits.gz": {
+      "source_file": "FISS_20230814_175902.489_B1_corr_spec.fts",
+      "source_sha256": "13e9b8371ce66100cbf78dcd3d64432fa5198435597757b898af6ccfe48d5150",
+      "sha256": "d7f2e6aa56f154e6ac584a3f5c349de17b6cdf522325ba4eb6aa2a07154038d4",
+      "bytes": 7261335,
+      "shape": [
+        64,
+        64,
+        502
+      ],
+      "date_obs": "2023-08-14T17:59:02.489",
+      "zero_based_crop": {
+        "rows": [
+          93,
+          157
+        ],
+        "columns": [
+          43,
+          107
+        ]
+      },
+      "reference_included": true,
+      "finite": true,
+      "reference_source": "FISS_20230814_175902.489_B1_par.fts",
+      "reference_source_sha256": "fb563db705aa8900df86e24ead54b178c88e10d60f3b28dc81c688cc2064f7ef"
+    },
+    "inference.fits.gz": {
+      "source_file": "FISS_20230814_172519.159_B1_corr_spec.fts",
+      "source_sha256": "74424fa85a7e61474406bc20de11e3ccd9088955328916727f02bb490b356857",
+      "sha256": "b78c0ca3e32847d9da23b8cb6c34fc75b56661ce79b0692eec6c64d51f2ef0d0",
+      "bytes": 7089190,
+      "shape": [
+        64,
+        64,
+        502
+      ],
+      "date_obs": "2023-08-14T17:25:19.159",
+      "zero_based_crop": {
+        "rows": [
+          93,
+          157
+        ],
+        "columns": [
+          43,
+          107
+        ]
+      },
+      "reference_included": false,
+      "finite": true
+    }
+  },
+  "wavelength_A": [
+    8536.330078125,
+    8549.1923828125
+  ]
+}
